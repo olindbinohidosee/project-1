@@ -1,0 +1,195 @@
+*{ 
+	margin: 0;
+	font-family: sans-serif;
+
+}
+/*haderstart*/
+header{
+    overflow: hidden;
+	border-bottom: 1px solid #EEF0F3;
+	
+ 
+ }
+.logo{
+     
+	display: inline-block;
+	}
+
+.logo img{
+	width: 100%
+ }
+nav{
+    margin: 10px 0;
+    
+    padding: 10px 0;
+    float: right;
+    width: 315px
+ }
+
+nav a{
+
+	color: #0F2656;
+    text-decoration: none;
+	padding-right: 10px;
+
+}
+
+nav a:hover{
+	color:#008AFF
+} 
+nav :last-child{
+	padding-right: 0;
+}
+/*headerend*/
+
+/*mainstart*/
+.container{
+	margin: 50px 200px ;
+
+}
+.txt{
+	text-align: center;
+
+}
+
+.txt h1{
+	margin:0 15%;
+	color:#0F2656;
+	line-height: 60px;
+	padding-bottom: 10px;
+	font-weight: 700;
+	font-size:50px;
+
+}
+
+.txt h1 span{
+	color: #008AFF;
+
+}
+
+.txt p{
+	margin: 10px 60px;
+	font-weight:200;
+	font-size:18px;
+    line-height: 25px;
+
+}
+.imgwrap{
+	margin: 0 17%;
+
+ }
+ /*mainend*/
+ /*content2start*/
+ .container1{
+	margin: 50px 200px ;
+	overflow: hidden;
+	 }
+
+ .left{
+ 	margin-left:20px ; 
+ 	text-align: right;
+ 	
+ 	width: 45%;
+ 	float:left;
+ 	padding-left: 15px;
+
+ }
+
+ .left h2{
+ 	color: #F15767;
+ 	font-weight: 700;
+	font-size:50px;
+	line-height: 60px;
+
+ } 
+
+ .left p{
+ 	color: #0F2656;
+	font-weight:200;
+	font-size:18px;
+    line-height: 25px;
+ }
+
+ .right h1{
+ 	margin-right: 40px;
+ 	
+ 	width:45%;
+ 	color:#0F2656;
+ 	float: right;
+	font-weight: 700;
+	font-size:50px;
+	line-height: 60px;
+ }
+ /*content2end*/
+ /*content3start*/
+ 
+
+ .container2{
+ 	margin: 2%;
+ 	
+ 	overflow: hidden;
+
+ }
+.container21{
+	margin: 2%;
+	
+	overflow: hidden;
+}
+
+.box{
+	margin:5px; 
+	width:32%;
+	float: left;
+	color: #0F2656;
+}
+
+.box h1{
+	padding-left: 8%;
+	font-size: 25px;
+	line-height: 50px;
+	
+}
+.box p{
+	margin: 0 8%;
+	line-height:30px;
+	padding-bottom: 80px;
+}
+.box img{ 
+	margin:12%;
+	
+	max-width: 100%;
+	min-height:220px;
+	  
+
+}
+
+.box1{
+
+	background-color: #FDEBED;
+
+}
+
+
+.box2{
+	
+	background-color: #EAF9F4;
+}
+
+
+.box3{
+	
+	background-color: #FFF7E8;
+}
+/*footerstart*/
+.footer{
+	padding: 30px;
+	color: white;
+    text-align: center;
+    background-color: #008AFF;
+}
+.footer span{
+	font-weight: 700
+
+
+
+/*footerend*/
